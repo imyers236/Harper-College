@@ -1,2 +1,2 @@
 # Harper-College
-# This is all the work I completed in my time at harper college
+This is all the work I completed in my time at harper college

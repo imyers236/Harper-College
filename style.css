@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    margin: 30px;
+}
+.home .cover{
+    display: flex;
+    justify-content: space-between;
+}
+.home .cover .title h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .cover .menu h1{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .cover .title{
+    max-width: 350px;
+}
+.home .cover .menu{
+    border: 1px solid #00000024;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 200px;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+.home .cover .menu:hover{
+    box-shadow: 0 0 20px #00000016;
+}
+.home .desc{
+    margin-top: 40px;
+}
+.home p{
+    margin-top: 10px;
+}
+.home .dropdowns h1{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(42, 92, 185);
+}
+.home .dropdowns h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .dropdowns h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .dropdowns .dropdown{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid #00000024;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.2s;
+}
+.home .dropdowns .dropdown:hover{
+    box-shadow: 0 0 20px #00000016;
+}
+.home .dropdowns .dropdown .arrow{
+    rotate: 0deg;
+    transition: 0.2s;
+}
+.home .dropdowns .dropdown.active .arrow{
+    rotate: 180deg;
+}
+.home .dropdowns .dropdown img{
+    max-width: 400px;
+    margin: 20px;
+}
+.home .dropdowns .dropdown .title{
+    display: flex;
+    justify-content: space-between;
+}
+.home .dropdowns .dropdown .content{
+    display: none;
+}
+.home .dropdowns .dropdown .content h2{
+    margin-top: 20px;
+}
+.home .dropdowns .dropdown .content h3{
+    margin-top: 20px;
+}
+.home .dropdowns .dropdown .content ul{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.home .dropdowns .dropdown.active .content{
+    display: block;
+}
+.home footer{
+    margin-top: 100px;
+}
